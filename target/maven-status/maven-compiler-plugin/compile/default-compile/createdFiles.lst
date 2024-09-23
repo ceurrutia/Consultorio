@@ -1,0 +1,7 @@
+com\mycompany\consultorio\Persona.class
+com\mycompany\consultorio\HistorialMedico.class
+com\mycompany\consultorio\Paciente.class
+com\mycompany\consultorio\Profesional.class
+com\mycompany\consultorio\Recepcionista.class
+com\mycompany\consultorio\Consultorio.class
+com\mycompany\consultorio\Cita.class
