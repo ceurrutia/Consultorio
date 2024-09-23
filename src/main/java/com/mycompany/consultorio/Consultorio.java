@@ -20,7 +20,7 @@ public class Consultorio {
         Cita cita = new Cita(profesional, paciente, new Date());
 
         // Crear una recepcionista
-        Recepcionista recepcionista = new Recepcionista(3, "Laura", "Louis", new Date(), "555", "laura@gmail.com", "Centro", "Almagro", "Buenos Aires", 1345);
+        Recepcionista recepcionista = new Recepcionista(3, "Laura", "Lopez", new Date(), "555", "laura@gmail.com", "Centro", "Almagro", "Buenos Aires", 1345);
 
         // Registrar el paciente
         recepcionista.registrarPaciente(paciente);
@@ -41,9 +41,9 @@ public class Consultorio {
         
 
         // Agregar diagnósticos y tratamientos
-        historialMedico.agregarDiagnostico("Hipertension");
+        historialMedico.agregarDiagnostico("Dolor abdominal");
         historialMedico.agregarDiagnostico("Diabetes tipo 2");
-        historialMedico.agregarTratamiento("Tratamiento con insulina");
+        historialMedico.agregarTratamiento("Paracetamol");
         historialMedico.agregarTratamiento("Dieta baja en sodio");
 
         // Obtener el historial
